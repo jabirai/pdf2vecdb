@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+.env.*  # any dotenv file with env vars
+.env
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs and dumps
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDE configs
+.vscode/
+.idea/
+
+# FAISS vector db
+faiss_index/
+
+# PDFs or temp files
+*.pdf
+tempfiles*.pdf
