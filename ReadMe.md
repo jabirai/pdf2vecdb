@@ -1,4 +1,3 @@
-````markdown
 # 📄 Document Embedding & Vector Search Pipeline
 
 A modular pipeline for ingesting internal PDFs (including scanned documents), extracting text, chunking content, generating vector embeddings using OpenAI, and storing them in a vector database (FAISS) for semantic search.
@@ -38,27 +37,9 @@ A modular pipeline for ingesting internal PDFs (including scanned documents), ex
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-```
 
-### 2. Create & Activate Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure Environment
+### 1. Configure Environment
 
 Create a `.env` file with your OpenAI API key and model config:
 
@@ -119,12 +100,6 @@ streamlit run app.py
 * OCR is only triggered if PDF is image-based or loading fails.
 * Supports both programmatic and UI-driven workflows.
 * Easily extendable to use cloud vector stores like Pinecone.
-
----
-
-## 📄 License
-
-MIT License. See `LICENSE` file for details.
 
 ---
 
